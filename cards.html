@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a7f7475171.js" crossorigin="anonymous"></script>
+<style>
+.box { background: white; padding: 10px}   
+</style>
+    <title>Cards</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <div class="orange accent-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">VIRJ CORNER</a>
+                    <a href="#" data-target="slide-out" class="slidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="sass.html">Home</a></li>
+                        <li><a href="badges.html">About</a></li>
+                        <li><a href="collapsible">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <h1 class="class grey-text">Cards</h1>
+        <div class="row">
+            <div class="col s12 m6">
+                <!-- Simple card without title -->
+                <div class="card">
+                    <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                    </div>
+                </div>
+                <!-- Add color -->
+                <div class="card red darken-2">
+                    <div class="card-content white-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                </div>  
+            </div>
+            </div>
+                <div class="col s12 m6">
+                <!-- Card with title -->
+                <div class="card">
+                    <div class="card-content">
+                    <span class="card-title">Card with Title</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                </div>
+                <!-- Add Links -->
+                <div class="card action">
+                    <a href="#">Read More</a>
+                    <a href="#">Read More</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <!-- Card with Image -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/food1.jpg" alt="">
+                            <span class="card-title">Card Image</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, pariatur.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>             
+                </div><div class="col s12 m6">
+            <!-- Card with Image -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/food3.jpg" alt="">
+                        <span class="card-title">Card Image</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red">
+                        <i class="material-icons">add</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, pariatur.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read more</a>
+                    </div>
+                </div>             
+            </div>
+        </div>
+    
+        <div class="row">
+        <div class="col s12 m6">
+            <!-- Horizontal Card-->
+            <class="card-horizontal">
+                <div class="card-image">
+                    <img src="img/food2.jpg" alt="" width="100%">              
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">Horizontal</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque quidem ullam ut quis necessitatibus officia, voluptatem natus delectus asperiores ducimus!</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is Link</a>
+                </div>   
+            </div>
+            </div>
+        </div>
+        <div class="col s12 m6">
+        <!--Card Reveal -->
+        <div class="card">
+            <div class="card-image wave-effect wave-light">
+                <img src="img/food5" alt="" class="activator">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator">        
+            <i class="materia-icons right">more_vert</i>
+            Card Reveal</span> 
+            <!-- inside of reveal -->
+        <div  class="card-reveal">
+            <span class="card-title">
+            <i class="material-icons right">close</i>
+                card-title</span>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <!--Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+
